@@ -18,6 +18,6 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        GITHUB_TOKEN: ${{ secrets.my_access_token }}
+        GITHUB_TOKEN: ${{ secrets.my_github_token }}
         BRANCH: gh-pages
         FOLDER: dist
