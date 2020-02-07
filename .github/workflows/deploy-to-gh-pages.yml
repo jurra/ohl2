@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - jurra
+      - ohl2
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
